@@ -69,10 +69,9 @@ $(function () {
       nav.removeClass("active");
       header.removeClass("active");
       $("body").removeClass("lock");
+    } else {
+      nav_toggle.removeClass("active");
     };
-
-    $("#nav_toggle").removeClass("active");
-    $this.addClass("active");
 
     $("#nav a").removeClass("active");
     $this.addClass("active");
