@@ -42,10 +42,15 @@ $(function () {
  $("#nav_toggle").on("click", function(event) {
     event.preventDefault();
 
-    nav_toggle.toggleClass("active");
+   if (nav_toggle.toggleClass("active")) {
     nav.toggleClass("active");
     header.toggleClass("active");
     $("body").toggleClass("lock");
+   } else {
+    nav_toggle.removeClass("active");
+   }
+
+
   });
 
 
