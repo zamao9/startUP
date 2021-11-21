@@ -6,14 +6,9 @@ body {
   font-weight: 300;
 
   background-color: #fff;
-  overflow: auto;
 
   margin: 0;
   padding: 0;
-}
-
-body.lock {
-  overflow: hidden;
 }
 
 *,
