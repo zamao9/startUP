@@ -6,7 +6,7 @@ body {
   font-weight: 300;
 
   background-color: #fff;
-  position: relative;
+  overflow: auto;
 
   margin: 0;
   padding: 0;

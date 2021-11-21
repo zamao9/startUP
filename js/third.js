@@ -42,11 +42,12 @@ $(function () {
  $("#nav_toggle").on("click", function(event) {
     event.preventDefault();
 
-    nav_toggle.toggleClass("active")
+   if(nav_toggle.toggleClass("active")) {
     nav.toggleClass("active");
     header.toggleClass("active");
-    $("body").addClass("lock");
-
+   } else {
+     nav_toggle.toggleClass("active", false);
+   }
   });
 
 
@@ -64,20 +65,24 @@ $(function () {
       nav_toggle.removeClass("active");
       nav.removeClass("active");
       header.removeClass("active");
-    } else {
-      nav_toggle.addClass("active", false);
-    };
+    }
+
+
 
     $("#nav a").removeClass("active");
     $this.addClass("active");
 
-
-
-
-  $("html, body").animate ({
+    $("html, body").animate ({
     scrollTop: blockOffset
   }, 900);
-  });
+
+    });
+
+
+
+
+
+
 
 
   /* SLIDER */
@@ -89,6 +94,8 @@ $(function () {
     draggable: false,
     waitForAnimate: false,
   });
+
+
 
 
   /* FILTER */
@@ -121,8 +128,16 @@ $(function () {
 
 
 
+});
 
 
 
 
-})
+
+
+
+
+
+
+
+
