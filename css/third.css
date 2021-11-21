@@ -93,10 +93,6 @@ a {
   cursor: pointer;
 }
 
-.nav_toggle:focus {
-  outline: 0;
-}
-
 .nav_toggle:hover
 .nav_toggle_items {
   background: #fff;
