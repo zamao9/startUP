@@ -647,7 +647,7 @@ img {
   max-width: 290px;
 
   opacity: 1;
-  margin: 0 auto 15px;
+  margin: 0 auto 6px;
   transition: all 0.3s ease;
 
   background-color: rgb(14 29 36);
@@ -1633,9 +1633,9 @@ span {
   }
 
   .works_img {
-    width: 33%;
-    max-width: none;
-    margin: 0 auto 3px;
+    flex: 1 1 32%;
+    max-width: 33%;
+    margin: 0 3px 3px;
   }
 
   /* BACK2 */
