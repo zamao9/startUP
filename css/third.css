@@ -1774,9 +1774,9 @@ span {
     font-size: 18px;
   }
 
-  .touch_text {
-    text-align: left;
+  .touch_text_block {
     margin-left: 80px;
+    text-align: left;
   }
 
   .touch_input {

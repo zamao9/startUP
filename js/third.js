@@ -50,7 +50,6 @@ $(function () {
     nav_toggle.removeClass("active");
    }
 
-
   });
 
 
