@@ -47,6 +47,10 @@ $(function () {
     header.toggleClass("active");
     $("body").toggleClass("lock");
 
+   if ( window.innerWidth >= 768 ) {
+      $("body").removeClass("lock");
+    };
+
   });
 
 
@@ -64,13 +68,14 @@ $(function () {
       nav_toggle.removeClass("active");
       nav.removeClass("active");
       header.removeClass("active");
-      $("body").removeClass("lock");
     } else {
       nav_toggle.addClass("active", false);
     };
 
     $("#nav a").removeClass("active");
     $this.addClass("active");
+
+
 
 
   $("html, body").animate ({
