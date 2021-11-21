@@ -45,11 +45,7 @@ $(function () {
     nav_toggle.toggleClass("active")
     nav.toggleClass("active");
     header.toggleClass("active");
-    $("body").toggleClass("lock");
-
-   if ( window.innerWidth >= 768 ) {
-      $("body").removeClass("lock");
-    };
+    $("body").addClass("lock");
 
   });
 
