@@ -1,42 +1,40 @@
 <!doctype html>
-<html>
+<html lang="en">
 
   <head>
-
     <meta charset="utf-8">
-    <title>хз</title>
-    <link rel="stylesheet" href="css/car.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome To StartUp</title>
+    <link rel="stylesheet" href="css/third.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   </head>
 
   <body>
 
+
+
+
     <!-- /.HEADER -->
-    <header class="header">
+    <header class="header" id="header">
 
-      <!-- /.HEADER_CONTENT -->
       <div class="header_content">
+        <div class="header_logo" data-scroll="#home">StartUp</div>
 
-        <a href="#" class="logo">StrongAuto</a>
-
-        <div class="nav_toggle" id="nav_toggle">
-          <div class="toggle_items"></div>
-          <i class="fas fa-cog toggle_icon"></i>
-          <i class="fas fa-cog toggle_icon1"></i>
-          <i class="fas fa-cog toggle_icon2"></i>
-        </div>
-
-        <!-- /.NAV -->
         <nav class="nav" id="nav">
-          <a href="#" class="links">Авторынок</a>
-          <a href="#" class="links">Новости</a>
-          <a href="#" class="links">Контакты</a>
-          <a href="#" class="links">Оплата</a>
-          <a href="#" class="links">Доставка</a>
-          <a href="#" class="links">Отзывы</a>
+          <a href="#" class="nav_links" data-scroll="#home">Home</a>
+          <a href="#" class="nav_links" data-scroll="#services">Services</a>
+          <a href="#" class="nav_links" data-scroll="#about">About</a>
+          <a href="#" class="nav_links" data-scroll="#works">Works</a>
+          <a href="#" class="nav_links" data-scroll="#blog">Blog</a>
+          <a href="#" class="nav_links" data-scroll="#clients">Clients</a>
+          <a href="#" class="nav_links" data-scroll="#contact">Contact</a>
         </nav>
+
+        <div class="nav_toggle" id="nav_toggle" data-collapse="#nav">
+          <div class="nav_toggle_items"></div>
+        </div>
 
       </div>
 
@@ -45,135 +43,14 @@
 
 
 
-    <!-- /.CONTAINER -->
-    <div class="container goods_container">
+    <!-- /.INTRO -->
+    <div class="intro" id="home">
 
-      <div class="goods_section1">
-        <nav class="goods_nav">
+      <div class="intro_content">
 
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Оригинальные Каталоги</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Масла, Тех.Жидкости и т.д.</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Аккумуляторы</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Каталог AfterMarket</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Шины</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Диски</a>
-          </div>
-          <div class="goods_cell">
-            <a href="#" class="goods_links">Запчасти Для ТО</a>
-          </div>
-          <div class="goods_cell and" id="and">
-            <a class="goods_links">Ещё...</a>
-          </div>
-
-        </nav>
-
-        <nav class="goods_nav_menu" id="goods_nav_menu">
-
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Герметики</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Антифризы</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Автокосметика</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Автохимия</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Ароматизаторы</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Жидкости ГУР, Масла</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Краски И Лаки</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Присадки</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Смазки</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Средства Для Очистки</a>
-          </div>
-          <div class="goods_cell menu_cell">
-            <a href="#" class="goods_links menu_links">Тормозные Жидкости</a>
-          </div>
-
-        </nav>
-      </div>
-
-      <div class="goods_section2">
-
-        <div class="goods_content one">
-          <img src="magazine1.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Оригинальные Каталоги</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content two">
-          <img src="oils.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Масла, Тех.Жидкости и т.д.</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content three">
-          <img src="acumulators.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Аккумуляторы</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content four">
-          <img src="magazine2.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Каталог AfterMarket</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content five">
-          <img src="wheels.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Шины</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content six">
-          <img src="disks.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Диски</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
-
-        <div class="goods_content seven">
-          <img src="details.png" alt="Каталог">
-          <div class="goods_body">
-            <p class="goods_body_text">Запчасти Для ТО</p>
-          </div>
-          <a href="#" class="goods_link"></a>
-        </div>
+        <h2 class="intro_title">Welcome to startup</h2>
+        <p class="intro_subtitle">Your Favorite Creative Agency Template</p>
+        <button class="intro_btn">get started</button>
 
       </div>
 
@@ -183,37 +60,37 @@
 
 
     <!-- /.SECTION -->
-    <section class="section pay_section">
+    <section class="section" id="services">
+
+      <div class="secion_header">services</div>
+      <hr>
+      <p class="section_subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 
       <!-- /.CONTAINER -->
-      <div class="container pay_container">
+      <div class="container">
 
-        <div class="pay">
-          <i href="a" class="fab fa-cc-visa pay_icons"></i>
+        <div class="services_items">
+
+          <i class="fas fa-mask services_icon"></i>
+          <p class="services_subtitle">clean typography</p>
+          <p class="services_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+
         </div>
-        <div class="pay">
-          <i href="a" class="fab fa-cc-mastercard pay_icons"></i>
+
+        <div class="services_items">
+
+          <i class="fas fa-mask services_icon"></i>
+          <p class="services_subtitle">rock solid code</p>
+          <p class="services_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+
         </div>
-        <div class="pay">
-          <i href="a" class="fas fa-globe pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-wallet pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-piggy-bank pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-euro-sign pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-donate pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-blog pay_icons"></i>
-        </div>
-        <div class="pay">
-          <i href="a" class="fas fa-ruble-sign pay_icons"></i>
+
+        <div class="services_items">
+
+          <i class="fas fa-mask services_icon"></i>
+          <p class="services_subtitle">expert support</p>
+          <p class="services_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+
         </div>
 
       </div>
@@ -224,79 +101,188 @@
 
 
     <!-- /.SECTION -->
-    <section class="section contacts_section">
+    <section class="section about_us" id="about">
+
+      <div class="secion_header">about us</div>
+      <hr>
+      <p class="section_subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
 
       <!-- /.CONTAINER -->
-      <div class="container contacts_container">
+      <div class="container">
 
-        <div class="contacts_blocks">
-          <div class="contacts_head" data-collapse="#contacts_id1">интернет магазин</div>
-          <div class="contacts_content" id="contacts_id1">
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">В наличии</a>
+        <div class="about_us_items">
+          <div class="about_us_head">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</div>
+          <div class="about_us_head">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</div>
+        </div>
+
+      </div>
+
+      <!-- /.CONTAINER -->
+      <div class="container about_us_img">
+        <div class="about_us_body">
+
+          <div class="about_us_body_all">
+            <div class="about_us_body_content">
+              <img src="img/about_us/1.jpeg">
+              <div class="about_us_icon_items">
+                <i class="fab fa-facebook-square about_us_icon"></i>
+                <i class="fab fa-twitter-square about_us_icon"></i>
+                <i class="fab fa-google-plus-square about_us_icon"></i>
+                <i class="fab fa-linkedin about_us_icon"></i>
+              </div>
             </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Объявления</a>
+            <p class="about_us_body_subtitle">susan does</p>
+            <p class="about_us_body_text">Head of Ideas</p>
+          </div>
+
+          <div class="about_us_body_all">
+            <div class="about_us_body_content">
+              <img src="img/about_us/2.jpeg">
+              <div class="about_us_icon_items">
+                <i class="fab fa-facebook-square about_us_icon"></i>
+                <i class="fab fa-twitter-square about_us_icon"></i>
+                <i class="fab fa-google-plus-square about_us_icon"></i>
+                <i class="fab fa-linkedin about_us_icon"></i>
+              </div>
             </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Авторынок</a>
+            <p class="about_us_body_subtitle">loes mia</p>
+            <p class="about_us_body_text">Sr. Web Developer</p>
+          </div>
+
+          <div class="about_us_body_all">
+            <div class="about_us_body_content">
+              <img src="img/about_us/3.jpeg">
+              <div class="about_us_icon_items">
+                <i class="fab fa-facebook-square about_us_icon"></i>
+                <i class="fab fa-twitter-square about_us_icon"></i>
+                <i class="fab fa-google-plus-square about_us_icon"></i>
+                <i class="fab fa-linkedin about_us_icon"></i>
+              </div>
             </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Отзывы о товарах</a>
+            <p class="about_us_body_subtitle">rachel doe</p>
+            <p class="about_us_body_text">Front-end Developer</p>
+          </div>
+
+          <div class="about_us_body_all">
+            <div class="about_us_body_content">
+              <img src="img/about_us/4.jpeg">
+              <div class="about_us_icon_items">
+                <i class="fab fa-facebook-square about_us_icon"></i>
+                <i class="fab fa-twitter-square about_us_icon"></i>
+                <i class="fab fa-google-plus-square about_us_icon"></i>
+                <i class="fab fa-linkedin about_us_icon"></i>
+              </div>
             </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Новости</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Статьи</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Купить сертификат</a>
-            </div>
+            <p class="about_us_body_subtitle">kali miah</p>
+            <p class="about_us_body_text">Lead WordPress Developer</p>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+    <!-- /.SECTION -->
+    <section class="section" id="works">
+
+      <div class="secion_header">Latest Works</div>
+      <hr>
+      <nav class="works_nav">
+        <a class="works_links" data-filter="all">All</a>
+        <a class="works_links" data-filter="branding">Branding</a>
+        <a class="works_links" data-filter="design">Design</a>
+        <a class="works_links" data-filter="development">Development</a>
+        <a class="works_links" data-filter="strategy">Strategy</a>
+      </nav>
+
+      <div class="container cont_work">
+
+        <div class="works_img design">
+          <img src="img/img/1.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">Interier</p>
+            <p class="works_text">Design</p>
+            <button class="works_btn">view ></button>
           </div>
         </div>
 
-
-        <div class="contacts_blocks">
-          <div class="contacts_head" data-collapse="#contacts_id2">Каталог товаров</div>
-          <div class="contacts_content" id="contacts_id2">
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Оригинальные каталоги</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Каталог ТО</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Еще</a>
-            </div>
+        <div class="works_img development">
+          <img src="img/img/2.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">1</p>
+            <p class="works_text">1</p>
+            <button class="works_btn">view ></button>
           </div>
         </div>
 
-
-        <div class="contacts_blocks">
-          <div class="contacts_head" data-collapse="#contacts_id3">О Компании</div>
-          <div class="contacts_content" id="contacts_id3">
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Франшиза</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Контакты</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Офисы</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Публичная оферта</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Написать директору</a>
-            </div>
-            <div class="contacts_links">
-              <a href="#" class="contacts_text">Поставщикам</a>
-            </div>
+        <div class="works_img branding">
+          <img src="img/img/3.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">2</p>
+            <p class="works_text">2</p>
+            <button class="works_btn">view ></button>
           </div>
         </div>
 
+        <div class="works_img strategy">
+          <img src="img/img/4.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">3</p>
+            <p class="works_text">3</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
+
+        <div class="works_img design">
+          <img src="img/img/5.jpg">
+          <div class="works_img_content">
+            <p class="works_subtitle">4</p>
+            <p class="works_text">4</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
+
+        <div class="works_img branding">
+          <img src="img/img/6.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">5</p>
+            <p class="works_text">5</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
+
+        <div class="works_img development">
+          <img src="img/img/7.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">6</p>
+            <p class="works_text">6</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
+
+        <div class="works_img design">
+          <img src="img/img/8.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">7</p>
+            <p class="works_text">7</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
+
+        <div class="works_img strategy">
+          <img src="img/img/9.jpeg">
+          <div class="works_img_content">
+            <p class="works_subtitle">8</p>
+            <p class="works_text">8</p>
+            <button class="works_btn">view ></button>
+          </div>
+        </div>
 
       </div>
 
@@ -305,11 +291,166 @@
 
 
 
-    <!-- /. SECTION -->
-    <section class="section last_section">
-      <div class="container last_container">
-        <p class="last_text">© 2008–2021 YULSUN Запчасти на все иномарки без посредников, <a href="#" class="last_text_link">Техподдержка</a></p>
+    <!-- /.SECTION -->
+    <section class="section back2">
+
+      <div class="container">
+
+        <div class="back2_content">
+          <h2 class="back2_title">Do you like OUR WORK so far?<br>Let's talk about YOUR PROJECT!</h2>
+          <button class="back2_btn">get in touch</button>
+        </div>
+
       </div>
+
+    </section>
+
+
+
+
+    <!-- /.SECTION -->
+    <section class="section" id="blog">
+
+      <div class="secion_header">recent blog posts</div>
+      <hr>
+      <p class="section_subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+
+      <!-- /.CONTAINER -->
+      <div class="container">
+
+        <div class="blog_items">
+          <div class="blog_img">
+            <img src="img/blog/1.jpeg">
+          </div>
+          <div class="blog_content">
+            <p class="blog_data">18<br>oct</p>
+            <p class="blog_title">stuetup ideas needs to be funded</p>
+            <p class="blog_subtitle">By <span>Rachel</span> Doe in <span>Front-end Developer</span></p>
+            <p class="blog_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+          </div>
+        </div>
+
+        <hr class="hr_blog">
+
+        <div class="blog_items">
+          <div class="blog_img">
+            <img src="img/blog/2.jpeg">
+          </div>
+          <div class="blog_content">
+            <p class="blog_data">18<br>oct</p>
+            <p class="blog_title">user interface designing elements</p>
+            <p class="blog_subtitle">By <span>Loes</span> Mid in <span>Sr. Web Developer</span></p>
+            <p class="blog_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+
+    <!-- /.SECTION -->
+    <section class="section brands" id="clients">
+
+      <div class="container cont_brands">
+        <div class="brands_head" slider>
+
+          <div class="brands_items">
+            <i class="fab fa-aviato brand_icons"></i>
+            <i class="fab fa-ember brand_icons"></i>
+            <i class="fab fa-ebay brand_icons"></i>
+            <i class="fab fa-fedex brand_icons"></i>
+          </div>
+
+          <div class="brands_items">
+            <i class="fab fa-d-and-d-beyond brand_icons"></i>
+            <i class="fab fa-apper brand_icons"></i>
+            <i class="fab fa-angrycreative brand_icons"></i>
+            <i class="fab fa-d-and-d-beyond brand_icons"></i>
+          </div>
+
+          <div class="brands_items">
+            <i class="fab fa-google-pay brand_icons"></i>
+            <i class="fab fa-hips brand_icons"></i>
+            <i class="fab fa-hooli brand_icons"></i>
+            <i class="fab fa-cpanel brand_icons"></i>
+          </div>
+
+        </div>
+        <div class="brands_content">
+          <p class="brands_text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet. Minima maxime quam architecto quo inventore harum ex maqni, dicta impedit</p>
+          <p class="brands_subtitle">Rachel Doe, Google Inc.</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- /.SECTION -->
+    <section class="section" id="contact">
+
+      <div class="secion_header">get in touch</div>
+      <hr>
+      <p class="section_subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+
+      <div class="conteiner in_touch">
+
+        <div class="container touch_cont1">
+          <div class="touch_items_head">
+            <i class="fas fa-map-marker-alt touch_icon"></i>
+            <p class="touch_subtitle">Adress</p>
+            <p class="touch_text">317, 7th Ave, New-York<br>NY 101200, Inited States of America </p>
+          </div>
+
+          <div class="touch_items_head">
+            <i class="fas fa-mobile-alt touch_icon"></i>
+            <p class="touch_subtitle">hotline (24x7)</p>
+            <p class="touch_text">+65 0052 300, +65 88251 210<br>+88 01723 511 340</p>
+          </div>
+
+          <div class="touch_items_head">
+            <i class="fas fa-envelope touch_icon"></i>
+            <p class="touch_subtitle">e-mail</p>
+            <p class="touch_text">shapedtheme@gmail.com<br>rachelcode@gmail.com</p>
+          </div>
+        </div>
+
+        <hr class="touc_hr">
+
+        <div class="touch_cont2">
+          <input class="touch_input" type="tel" placeholder="your number">
+          <input class="touch_input" type="email" placeholder="your e-mail">
+          <input class="touch_input" placeholder="your subject">
+          <input class="touch_input" placeholder="company name">
+          <textarea class="touch_input_massage" placeholder="write your massage"></textarea>
+          <button class="touch_btn">send massage</button>
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+
+    <!-- /.SECTION -->
+    <section class="section back3">
+
+      <div class="secion_header back3_1">
+        <i class="fab fa-facebook-square back3_icon"></i>
+        <i class="fab fa-twitter-square back3_icon"></i>
+        <i class="fab fa-google-plus-square back3_icon"></i>
+        <i class="fab fa-linkedin back3_icon"></i>
+      </div>
+      <hr class="back3_2">
+      <p class="section_subtitle back3_3">2015 startup. designed by shapedtheme</p>
+
     </section>
 
 
@@ -318,7 +459,33 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/car.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/third.js"></script>
   </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

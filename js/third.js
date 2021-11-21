@@ -70,7 +70,7 @@ $(function () {
       header.removeClass("active");
       $("body").removeClass("lock");
     } else {
-      nav_toggle.removeClass("active");
+      nav_toggle.addClass("active", false);
     };
 
     $("#nav a").removeClass("active");
