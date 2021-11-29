@@ -83,30 +83,47 @@ $(function () {
 
 
   /* SLIDER */
-  $("[slider]").slick ({
-    arrows: true,
+  $('.slider').slick ({
+    dots: true,
+    arrows: false,
     slidesToShow: 5,
     slidesToScroll: 3,
-    dots: true,
-    speed: 1000,
+    infinite: true,
     easing: 'ease',
-    draggable: false,
+    centerMode: false,
+    speed: 1000,
+    touchThreshold: 15,
     responsive: [
       {
-        breakpoint: 768,
-        setings: {
+        breakpoint: 769,
+        settings: {
           slidesToShow: 4,
-          slidesToScroll: 2
+          slidesToScroll: 3
         }
       },
       {
-        breakpoint: 600,
-        setings: {
+        breakpoint: 671,
+        settings: {
           slidesToShow: 3,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 671,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 376,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       }
     ]
+
   });
 
 
