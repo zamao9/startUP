@@ -1096,6 +1096,7 @@ span {
   padding: 10px 10px;
   margin: 0 auto 15px;
 
+  outline: none;
   border: none;
   border-radius: 0;
   border: 1px solid rgba(204, 204, 204, 0.7);
@@ -1129,6 +1130,7 @@ span {
   padding: 10px 10px;
   margin: 0 auto 15px;
 
+  outline: none;
   border: none;
   border: 1px solid rgba(204, 204, 204, 0.7);
   border-radius: 0;
